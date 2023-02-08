@@ -1,0 +1,68 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+.form-container {
+  padding: 1.5em;
+  background-color: blackd;
+}
+
+.input,
+.submit-button {
+  padding: 5px;
+  font-size: 16px;
+  border: 0.5px solid rgb(221, 216, 216);
+}
+
+.input {
+  border-radius: 3px 0px 0px 3px;
+  max-width: 190px;
+}
+
+.submit-button {
+  margin-right: -5px;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.list-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.list-item {
+  list-style: none;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 20px 25px;
+  max-width: 210px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link-container {
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  color: rgba(0, 0, 0);
+}
+
+.missing-img-div {
+  width: 210px;
+  height: 295px;
+  font-style: italic;
+  color: rgb(150, 144, 144);
+  text-align: center;
+  border: 0.5px solid rgb(219, 218, 218);
+}
+
+.no-results-search {
+  padding-left: 30px;
+}
